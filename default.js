@@ -172,9 +172,9 @@
 
             // ビュー行列の生成
             var camera_pos = [
-            
-                5.0 * Math.cos(2 * Math.PI * rotation),
             3.0,     
+                5.0 * Math.cos(2 * Math.PI * rotation),
+            
                -5.0 * Math.sin(2 * Math.PI * rotation)];// 少し上でぐるぐる回す
             var look_at = [0.0, 0.0, 0.0];
             var up = [0.0, 1.0, 0.0];
